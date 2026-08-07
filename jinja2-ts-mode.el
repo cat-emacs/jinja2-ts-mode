@@ -7,7 +7,7 @@
 ;; Version: 0.1.2
 ;; Package-Requires: ((emacs "29.1"))
 ;; Keywords: languages, templates, jinja2, tree-sitter
-;; URL: https://github.com/chuxubank/jinja2-ts-mode
+;; URL: https://github.com/cat-emacs/jinja2-ts-mode
 
 ;;; Commentary:
 

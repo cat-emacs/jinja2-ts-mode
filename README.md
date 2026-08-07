@@ -17,7 +17,7 @@ Install directly from GitHub with `package-vc`:
 
 ```elisp
 (use-package jinja2-ts-mode
-  :vc (:url "https://github.com/chuxubank/jinja2-ts-mode"))
+  :vc (:url "https://github.com/cat-emacs/jinja2-ts-mode"))
 ```
 
 Then install the grammar once:
@@ -29,7 +29,7 @@ M-x jinja2-ts-mode-install-grammar
 Files ending in `.j2`, `.jinja`, or `.jinja2` automatically use
 `jinja2-ts-mode`. To retain a host language such as JSON, YAML, or HTML,
 use `poly-any-jinja2` from
-[`poly-any-template`](https://github.com/chuxubank/poly-any-template).
+[`poly-any-template`](https://github.com/cat-emacs/poly-any-template).
 
 ## Development
 
