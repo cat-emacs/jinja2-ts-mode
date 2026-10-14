@@ -179,7 +179,7 @@ The value has the same form as the cdr of an entry in
 
 (defun jinja2-ts-mode--defun-name (node)
   "Return the macro or block name declared by NODE."
-  (when-let ((identifier (treesit-search-subtree node "identifier")))
+  (when-let* ((identifier (treesit-search-subtree node "identifier")))
     (treesit-node-text identifier t)))
 
 ;;;###autoload
